@@ -1,0 +1,23 @@
+Greetings,
+
+We are writing you this email in order to ask for some clarifications about your work with the following DOI:
+https://doi.org/10.3390/sym13101760.
+
+We are students from Politecnico di Milano and our major is Biomedical Engineering and we're working on a thesis about individuating a model in order to describe tumoral cell growth alterations in presence of cytotoxic drugs.
+We found your article on Scopus and as it is right now, we are validating the results with the intention of predicting the effect of other types of drugs.
+
+We tried to replicate your results with Python and had the following issues while validating the model over 312 hours:
+- with an initial cell population set to 5e4 our graphs were similar, but diverged when the graph started going down;
+- on the other hand, with A(0) set to 1e4 and 1e4 the maximum mumber of cells/mL didn't go down and died faster than expected.
+
+We used the same values as Table 1 in the papaer (with Ad(0)=2500), then proceeded to solve the ODE with the RK45 method and a maximum step of 1 out of 1 million intervals (see attachment). 
+Successively, we did a sensibility test on the model, and found out that it was probably an incorrect parameter or two that caused the issue. Even though we don't know which.
+
+We would ask you to help with the following:
+- identifying the faulty parameter;
+- understanding how the cytotoxic rate in presence of the drug was found
+
+We are looking foward to hearing from you,
+Chang Hui Simone Lin,
+Elena Sabatino,
+Martina Toselli.
