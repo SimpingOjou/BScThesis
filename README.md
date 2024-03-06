@@ -1,6 +1,6 @@
 # Cos'è questo progetto:
 
-Lavoro di tesi triennale presso Politecnico di Milano in ingegneria biomedica. 
+Lavoro di tesi triennale presso Politecnico di Milano in ingegneria biomedica (A.A. 2022-2023). 
 
 **Titolo**: Individuazione di un modello per descrivere le alterazioni della crescita di cellule tumorali in presenza di farmaci citotossici
 
